@@ -1,0 +1,29 @@
+{
+  "name": "desafioqalacrei",
+  "version": "1.0.0",
+  "description": "Desafio que simula exatamente a rotina de time de Qa no dia a dia.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charelli/DesafioQaLacrei.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Charelli/DesafioQaLacrei/issues"
+  },
+  "homepage": "https://github.com/Charelli/DesafioQaLacrei#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions"
+
+  }
+}
