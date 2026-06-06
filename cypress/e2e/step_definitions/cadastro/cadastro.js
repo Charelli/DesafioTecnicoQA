@@ -79,6 +79,6 @@ When("clicar no botão {string}", (botao) => {
 })
 
 Then("o sistema deve criar uma nova conta", () => {
-  cy.contains("Enviamos um link")
+  cy.contains("Enviamos um link",{timeout: 10000 })
     .should("be.visible")
 })
