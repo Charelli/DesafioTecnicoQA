@@ -11,5 +11,4 @@ Feature: Cadastro de pessoa usuária
     And aceitar os termos de uso
     And confirmar a idade mínima
     And clicar no botão "Cadastrar"
-    Then o sistema deve criar uma nova conta
-    And exibir a mensagem "Enviamos um link de verificação para seu email"
+    Then é redirecionado para a página de verificação de e-mail
